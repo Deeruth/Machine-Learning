@@ -1,0 +1,105 @@
+# Medical_insurance_cost_Project
+
+---
+
+## Table of Contents
+  - [Project Overview](#project-overview)
+  - [Data Sources](#data-sources)
+  - [Proposed Features](#proposed-features)
+  - [Tools](#tools)
+  - [Milestones](#milestones)
+  - [Results](#results)
+  - [Recommendations](#recommendations)
+  - [Limitations](#limitations)
+  - [References](#references)
+
+### Project Overview
+---
+
+The aim of the project is to accurately predict insurance costs using the medical cost personal dataset.
+It comprises 7 columns; age, sex, bmi, children,region smoker, charges
+
+### Data Sources
+
+The data sources includes: https://www.kaggle.com/datasets/mirichoi0218/insurance/code
+
+### Proposed Features
+Data Collection and Preprocessing Module (Python)
+Exploratory Data Analysis (Python)
+Visualization Module (Seaborn package on python)
+
+
+### Tools
+Database: MySQL Server (ERP data source)
+Data Visualization: Python
+
+
+### Milestones
+1. Data Collection and import
+# import dependencies
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import Lasso
+from sklearn import metrics
+from sklearn.metrics import mean_absolute_error, mean_squared_error
+
+Preprocessing : Handling missing values and formatting
+
+2. Exploratory Data Analysis
+
+4. Visualization
+
+
+### Data Analysis Code
+Include some interesting code/features I worked with;
+sql `
+
+
+### Results
+The analysis results are summarised as follows:
+
+1. Sales Trends: Through exploratory data analysis, we identified seasonal fluctuations and trends in sales across different regions and product categories in November.
+2. Customer Behavior: Analysis revealed patterns in customer purchasing behavior, such as preferred products, order frequency, and order size.
+3. Product Performance: Certain products showed consistently high sales, while others exhibited potential for improvement.
+4. Regional Variances: Sales performance varied significantly across different regions, indicating opportunities for targeted marketing and sales strategies
+5. Correlation: There's a positive correlation between both sales and acquisition rate.
+
+
+
+ ### Recommendations
+ Based on the analysis, we recommend the following actions:
+- Implement targeted marketing campaigns based on customer segmentation and purchasing patterns identified through data analysis.
+- Optimize product offerings and pricing strategies based on insights into product performance and customer preferences.
+- Strengthen distribution channels in regions with high sales potential and invest in sales force training and support.
+- Leverage predictive modeling to forecast future sales and inventory requirements, enabling proactive inventory management
+
+
+
+ ### Limitations
+
+- Data Quality: The analysis is contingent upon the quality and completeness of the data extracted from the ERP system. Inaccuracies or inconsistencies in the data may impact the validity of findings.
+- Scope: The analysis focuses primarily on sales data and may not capture other factors influencing sales performance, such as market trends, competitor activities, or external economic factors.
+- Technical Constraints: Limitations in computational resources or software capabilities may restrict the complexity of analysis or the scale of data processed.
+- Generalizability: Findings and recommendations may not be universally applicable and should be interpreted within the context of the specific business and market environment
+
+
+### References
+1. SQL for Business
+2. Microsoft Power BI
+
+😄
+💻
+|Heading1|Heading2|
+|--------|--------|
+|Content|Contents2|
+|PowerBI|SQL|
+
+column_1
+
+*bold*
+
+italic
